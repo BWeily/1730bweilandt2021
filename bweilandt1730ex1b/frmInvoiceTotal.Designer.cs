@@ -48,7 +48,7 @@ namespace bweilandt1730ex1b
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Subtotal:";
+            this.label1.Text = "&Subtotal:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -73,10 +73,8 @@ namespace bweilandt1730ex1b
             // 
             this.txtDiscountPercent.Location = new System.Drawing.Point(145, 78);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
-            this.txtDiscountPercent.ReadOnly = true;
             this.txtDiscountPercent.Size = new System.Drawing.Size(117, 20);
             this.txtDiscountPercent.TabIndex = 3;
-            this.txtDiscountPercent.TabStop = false;
             // 
             // label3
             // 
@@ -153,7 +151,7 @@ namespace bweilandt1730ex1b
             this.Controls.Add(this.txtSubtotal);
             this.Controls.Add(this.label1);
             this.Name = "frmInvoiceTotal";
-            this.Text = "bweilandt1b1";
+            this.Text = "bweilandt1b1: Invoice Total Form";
             this.Load += new System.EventHandler(this.frmInvoiceTotal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
