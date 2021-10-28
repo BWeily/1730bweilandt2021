@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bweilandt2e1", "bweilandt2e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bweilandt2e1UnitTests", "bweilandt2e1UnitTests\bweilandt2e1UnitTests.csproj", "{F9921493-11B4-4116-BB99-9840BEB6EE00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bweilandt2f1", "bweilandt2f1\bweilandt2f1.csproj", "{30772B0B-8F52-4747-AAED-05A041A8FA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bweilandt2fUnitTests", "bweilandt2fUnitTests\bweilandt2fUnitTests.csproj", "{B6C9AB1A-D635-45D4-89DA-D4080B9661BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{F9921493-11B4-4116-BB99-9840BEB6EE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9921493-11B4-4116-BB99-9840BEB6EE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9921493-11B4-4116-BB99-9840BEB6EE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30772B0B-8F52-4747-AAED-05A041A8FA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30772B0B-8F52-4747-AAED-05A041A8FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30772B0B-8F52-4747-AAED-05A041A8FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30772B0B-8F52-4747-AAED-05A041A8FA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C9AB1A-D635-45D4-89DA-D4080B9661BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C9AB1A-D635-45D4-89DA-D4080B9661BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C9AB1A-D635-45D4-89DA-D4080B9661BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C9AB1A-D635-45D4-89DA-D4080B9661BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
