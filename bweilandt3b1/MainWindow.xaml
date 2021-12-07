@@ -27,7 +27,7 @@
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <Label Content="0) p149 While, count" HorizontalAlignment="Left" Height="28" VerticalAlignment="Center"/>
+            <Label Content="0) GetDiscountPercent(dec)" HorizontalAlignment="Left" Height="28" VerticalAlignment="Center"/>
             <TextBox x:Name="inputTextBox0a" Grid.Column="1" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Text="24"/>
             <TextBox x:Name="inputTextBox0b" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Text="100.00"/>
             <TextBox x:Name="inputTextBox0c" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Text="0.005"/>
@@ -37,7 +37,7 @@
             <TextBox x:Name="inputTextBox1b" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Row="1" Text="100.00"/>
             <TextBox x:Name="inputTextBox1c" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Row="1" Text="0.005"/>
             <TextBox x:Name="resultTextBox1" Grid.Column="4" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="106" Grid.Row="1" Margin="0,6"/>
-            <Label Content="2) p151 For loop" HorizontalAlignment="Left" Height="28" VerticalAlignment="Center" Grid.Row="2"/>
+            <Label Content="2) CalculateFutureValue(dec, dec, int)" HorizontalAlignment="Left" Height="28" VerticalAlignment="Center" Grid.Row="2"/>
             <TextBox x:Name="inputTextBox2a" Grid.Column="1" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Row="2" Text="24"/>
             <TextBox x:Name="inputTextBox2b" Grid.Column="2" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Row="2" Text="100.00"/>
             <TextBox x:Name="inputTextBox2c" Grid.Column="3" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Center" Width="60" Grid.Row="2" Text="0.005"/>
