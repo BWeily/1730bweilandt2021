@@ -133,17 +133,19 @@ namespace bweilandt3a1
             return result;
         }
 
-
         public static string Calc6(string strNumbers, string strCount)
         {
             string result = "";
             int startIndex = 0;
+     
 
             try
             {
-                while ()
+                int endIndex = 0;
+                object v = endIndex;
+                while ((bool)(v = endIndex))
                 {
-                    int endIndex = strNumbers.IndexOf(' ', startIndex);
+                    int v = strNumbers.IndexOf(' ', startIndex);
                     string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
                     int number = Int32.Parse(strNumber);
 
@@ -154,7 +156,7 @@ namespace bweilandt3a1
             {
                 result = "Invalid input";
             }
-                
+
             return result;
 
         }
@@ -163,52 +165,15 @@ namespace bweilandt3a1
         public static string Calc7(string strNumbers, string strCount)
         {
             string result = "";
-            int startIndex = 0;
-
-            try
-            {
-                while ()
-                {
-                    int endIndex = strNumbers.IndexOf(' ', startIndex);
-                    string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
-                    int number = Int32.Parse(strNumber);
-
-                    startIndex = endIndex = 1;
-                }
-            }
-            catch
-            {
-                result = "Invalid input";
-            }
 
             return result;
-
         }
-
 
         public static string Calc8(string strNumbers, string strCount)
         {
             string result = "";
-            int startIndex = 0;
-
-            try
-            {
-                while ()
-                {
-                    int endIndex = strNumbers.IndexOf(' ', startIndex);
-                    string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
-                    int number = Int32.Parse(strNumber);
-
-                    startIndex = endIndex = 1;
-                }
-            }
-            catch
-            {
-                result = "Invalid input";
-            }
 
             return result;
-
         }
 
     }
